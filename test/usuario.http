@@ -1,0 +1,17 @@
+@url=http://localhost:3000/RotaUsuario
+
+POST {{url}}
+Content-Type: application/json
+
+{
+    "nome": "josé",
+    "email": "jose@gmail.com",
+    "senha": "543210",
+    "dataNascimento": "2010-01-01"
+}
+
+
+
+GET {{url}}
+
+GET {{url}}/6335ee8ce8a9c74c2085aca1

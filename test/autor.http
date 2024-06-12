@@ -1,0 +1,10 @@
+@url=http://localhost:3000/RotaAutor
+
+
+POST {{url}}
+Content-Type: application/json
+
+{
+    "email": "jose@gmail.com",
+    "senha": "54321"
+}
